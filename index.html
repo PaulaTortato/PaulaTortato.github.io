@@ -8,7 +8,7 @@
   <title>Meu Portifólio Web</title>
   <style>
     body {
-      background-color: rgb(2, 48, 71);
+      background-color: #023047;
       color: #FFB703;
       font-family: monospace;
       font-size: 18px;
@@ -20,19 +20,30 @@
       color: #FB8500;
     }
 
+    a {
+      text-decoration: none;
+      color: #FFB703;
+      font-weight: 600;
+    }
+
     .hab {
       font-size: 15px;
+      list-style-position: inside;  
     }
 
     .botao {
-      background-color: #219EBC;
-      color: #8ECAE6;
+      background-color: #FB8500;
+      color: #023047;
       font-size: 16px;
       line-height: 20px; 
-      padding: 15px 30px;
+      padding: 10px 20px;
       font-weight: 600;
       text-decoration: none;
       border-radius: 5px;     
+    }
+
+    .photo {
+      border-radius: 5px;
     }
   </style>
 </head>
@@ -40,10 +51,10 @@
 <body>
   <h1 id="inicio">Meu Portifólio</h1>
   <br>
-  <img id="foto" src="foto.jpeg" alt="Mulher de cabelos compridos loiros usando óculos e sorrindo" width="100px">
+  <img class="photo" id="foto" src="foto.jpeg" alt="Mulher de cabelos compridos loiros usando óculos e sorrindo" width="175px">
   <p id="descriçao">Me chamo Paula Carolina Weber Tortato, sou de Curitiba/PR. Me formei em Psicologia mas atualmente
     sou estudante de
-    <em>Desenvolvimento Web</em> pela Trybe.
+    <em>Desenvolvimento Web</em> pela <a href="https://www.betrybe.com/" target="_blank">Trybe</a>.
   </p>
   <ul id="habilidades">Algumas habilidades minhas:
     <li class="hab"><strong>Sou uma boa ouvinte</strong></li>
