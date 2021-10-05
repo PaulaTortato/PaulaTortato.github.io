@@ -1,0 +1,70 @@
+body {
+    background-color: #023047;
+    color: #FFB703;
+    font-family: Gemunu Libre;
+    font-size: 28px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Gemunu Libre, sans-serif;
+    color: #FB8500;    
+}
+
+a {
+    text-decoration: none;
+    color: #FFB703;
+    font-weight: 600;
+}
+
+.hab {
+    font-size: 20px;
+    list-style-position: inside;
+}
+
+.botao {
+    background-color: #FB8500;
+    color: #023047;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.sobre-mim, .sobre-mim-foto {
+      display: inline-block;
+      max-width: 450px;
+      vertical-align: middle;
+      text-align: center;
+      height: 237px;   
+}
+
+.sobre-mim-foto {
+    position: absolute;
+    left: 475px;
+}
+
+.photo {
+      border-radius: 5px;
+      padding: 2px;
+      background-color: #FFB703;
+}
+
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.trybe:hover {
+    background-color: #FFB703;
+    color: #023047;
+}
+
+.botao:hover {
+    border: 1px solid #FB8500;
+    background-color: #023047;
+    color: #FB8500;
+}

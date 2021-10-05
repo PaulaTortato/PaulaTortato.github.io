@@ -9,65 +9,39 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>Meu Portifólio Web</title>
-  <style>
-    body {
-      background-color: #023047;
-      color: #FFB703;
-      font-family: monospace;
-      font-size: 18px;
-      text-align: center;
-    }
-
-    h1 {
-      font-family: sans-serif;
-      color: #FB8500;
-    }
-
-    a {
-      text-decoration: none;
-      color: #FFB703;
-      font-weight: 600;
-    }
-
-    .hab {
-      font-size: 15px;
-      list-style-position: inside;
-    }
-
-    .botao {
-      background-color: #FB8500;
-      color: #023047;
-      font-size: 16px;
-      line-height: 20px;
-      padding: 10px 20px;
-      font-weight: 600;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-
-    .photo {
-      border-radius: 5px;
-    }
-  </style>
 </head>
 
 <body>
-  <h1 id="inicio">Meu Portifólio</h1>
-  <br>
-  <img class="photo" id="foto" src="foto.jpeg" alt="Mulher de cabelos compridos loiros usando óculos e sorrindo"
-    width="175px">
-  <p id="descriçao">Me chamo Paula Carolina Weber Tortato, sou de Curitiba/PR. Me formei em Psicologia mas atualmente
-    sou estudante de
-    <em>Desenvolvimento Web</em> pela <a href="https://www.betrybe.com/" target="_blank">Trybe</a>.
-  </p>
-  <ul id="habilidades">Algumas habilidades minhas:
-    <li class="hab"><strong>Sou uma boa ouvinte</strong></li>
-    <li class="hab">Gosto de aprender coisas novas</li>
-    <li class="hab">Possuo um bom entendimento de inglês</li>
-    <li class="hab">Estou aprendendo japonês</li>
-    <li class="hab">Assim como HTML e CSS</li>
-  </ul>
+    <h1 id="inicio">Meu Portifólio</h1> 
+  <div>
+    <div class="sobre-mim-foto">
+      <img class="photo" id="foto" src="foto.jpeg" alt="Mulher de cabelos compridos loiros usando óculos e sorrindo"
+        width="175px">
+    </div>
+    <div class="sobre-mim">
+      <p id="descriçao">Meu nome é Paula Carolina Weber Tortato, sou de Curitiba/PR.</p> 
+      <p>Me formei em Psicologia mas
+        atualmente
+        sou estudante de
+        <em>Desenvolvimento Web</em> pela <a class="trybe" href="https://www.betrybe.com/" target="_blank">Trybe</a>.
+      </p>
+    </div>
+  </div>
+  <div>
+    <ul id="habilidades">Algumas habilidades minhas:
+      <li class="hab"><strong>Sou uma boa ouvinte</strong></li>
+      <li class="hab">Gosto de aprender coisas novas</li>
+      <li class="hab">Possuo um bom entendimento de inglês</li>
+      <li class="hab">Estou aprendendo japonês</li>
+      <li class="hab">Assim como HTML e CSS</li>
+    </ul>
+  </div>
   <br>
   <a class="botao" href="https://www.w3schools.com/" target="_blank">Um bom site para entender o mundo do HTML</a>
   <br>
@@ -75,6 +49,7 @@
   <br>
   <a class="botao" href="#inicio">Início</a> <a class="botao" href="#foto">Eu</a> <a class="botao"
     href="#descriçao">Descrição</a> <a class="botao" href="#habilidades">Habilidades</a>
+  <br>
 </body>
 
 </html>
